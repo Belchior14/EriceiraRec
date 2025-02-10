@@ -1,0 +1,36 @@
+body{
+    background-image: url(https://images.ctfassets.net/xhzuh2up4xai/4aV7Lb6hpazK1XtAALe3o8/a09d7ad6c1878ab349a8afa2a309a193/Surf_Ericeira39-min.jpg?fm=jpg&fl=progressive&w=1920&q=75);
+}
+
+nav{
+    display: flex;
+    justify-content:space-evenly
+}
+
+h1 , p , h2{
+    color: #ffffff;
+}
+
+
+.team {
+    display: flex;
+    justify-content:space-evenly
+
+
+}
+
+.member {
+    border: 1px solid #ffffff;
+    padding: 50px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+img {
+    width: 200px;
+    height: auto
+}
