@@ -4,6 +4,18 @@ console.log("hehehe")
 
 const valueInput = document.getElementById("valueInput")
 const btnSearch = document.getElementById("getValue")
+const clearBtn = document.getElementById("clear");
+
+clearBtn.addEventListener("click" , function() {
+
+    valueInput.value = ""
+    while (recos.firstChild) {
+        recos.removeChild(recos.firstChild);
+    }
+
+
+
+})
 
 btnSearch.addEventListener("click" , function(e){
 e.preventDefault();
@@ -70,14 +82,6 @@ fetch(apiURL)
 
     }
   
-
-
-
-
-
-
-
-
 })
 .catch(error => {
     console.error("error", error)
