@@ -81,6 +81,52 @@ fetch(apiURL)
         }
 
     }
+
+
+    if(find === "country" || find === "countries") {
+        let recos = document.getElementById("recos")
+
+        for (let i = 0 ; i<data.countries.length ;  i++){
+            let h2Name = document.createElement("h2");
+            h2Name.innerHTML = data.countries[i].name;
+            recos.appendChild(h2Name)
+
+
+        
+            for (let j = 0 ; j< data.countries[j].cities.length ; j++ ){
+                console.log(data.countries[i].cities[j].description);
+
+                let divP = document.createElement("div")
+
+                let pDesc = document.createElement("p");
+                pDesc.innerHTML = data.countries[i].cities[j].description
+
+                let nameCity = document.createElement("h2");
+                nameCity.innerHTML =  data.countries[i].cities[j].name
+
+
+
+                let newImage = document.createElement("img");
+                newImage.src = data.countries[i].cities[j].imageUrl;
+                recos.appendChild(newImage);
+
+
+
+                divP.appendChild(nameCity);
+                divP.appendChild(pDesc);
+           
+                recos.appendChild(divP);
+
+
+                
+            }
+       
+     
+
+  
+        }
+
+    }
   
 })
 .catch(error => {

@@ -22,12 +22,12 @@
         "cities": [
           {
             "name": "Tokyo, Japan",
-            "imageUrl": "enter_your_image_for_tokyo.jpg",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg/640px-Skyscrapers_of_Shinjuku_2009_January.jpg",
             "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
           },
           {
             "name": "Kyoto, Japan",
-            "imageUrl": "enter_your_image_for_kyoto.jpg",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRoxridbYEXVA_34zVqKtMWJL77C9GbVsnaQ&s",
             "description": "Known for its historic temples, gardens, and traditional tea houses."
           }
         ]
@@ -38,12 +38,12 @@
         "cities": [
           {
             "name": "Rio de Janeiro, Brazil",
-            "imageUrl": "enter_your_image_for_rio.jpg",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-I-JnASkyUzzeM6vZIuuoztFaaxTNd6RSnA&s",
             "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
           },
           {
             "name": "São Paulo, Brazil",
-            "imageUrl": "enter_your_image_for_sao-paulo.jpg",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGGBRTTC8wvuX8MqJ68kgxj6WPYY8eHeA_Fg&s",
             "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
           }
         ]
